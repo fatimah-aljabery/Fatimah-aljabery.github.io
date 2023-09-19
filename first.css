@@ -1,0 +1,64 @@
+html{
+    background-image: url(img/cs.jpg);
+    background-position: top right;
+    background-attachment: fixed
+        
+    
+}
+h{
+   color:darkgreen 
+    
+}
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: upper-roman;
+    
+}
+
+a:active{
+    color: black
+    
+}
+a:visited{ color: red;
+     text-decoration: none
+    
+    
+}
+a:link{
+    color: blue;
+     text-decoration: none
+    
+}
+a:hover{
+    
+    color: green
+}
+ol ol{
+    list-style-type: lower-roman;
+}
+
+p{
+    
+    
+}
+p .p1{
+    font-size: 18pt ;
+    color: darkslateblue;
+    font-family: sans-serif;
+    background-color: azure
+    
+}
+
+p.p2{
+     font-size: 18pt ;
+    color:  slateblue;
+    font-family: serif;
+    background-color: oldlace
+}
+p .dark{
+    font-weight: bold;
+    font-family: fantasy
+}
