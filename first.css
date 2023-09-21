@@ -19,7 +19,8 @@ ol{
 }
 
 a:active{
-    color: black
+    color: black;
+    text-decoration: underline
     
 }
 a:visited{ color: red;
@@ -33,7 +34,7 @@ a:link{
     
 }
 a:hover{
-    
+     text-decoration: underline; 
     color: green
 }
 ol ol{
