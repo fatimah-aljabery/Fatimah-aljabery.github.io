@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript example1   </title>
+    <meta charset="utf-8">
+    <script>
+    function add(){
+        var num1=parseInt(document.getElementById("n1").value);
+        var num2=parseInt(document.getElementById("n2").value);
+        var result=num1+num2;
+        document.getElementById("re").innerHTML=result;
+        
+    }
+     function mul(){
+        var num1=parseInt(document.getElementById("n1").value);
+        var num2=parseInt(document.getElementById("n2").value);
+        var result=num1*num2;
+        document.getElementById("re").innerHTML=result;
+        
+    }
+    
+    function change1(){
+        
+        document.getElementById("n1").style.backgroundColor= "red";
+        document.getElementById("n2").style.backgroundColor= "red";
+    }
+    function change2(){
+        
+        document.getElementById("n1").style.color="green";
+         
+        document.getElementById("n2").style.color="green";
+    }
+    
+    
+    
+    </script>
+    
+    </head>
+
+<body>
+    <form>
+    <label for="n1" >number1 </label>
+    <input type="number" id="n1"><br><br>
+    <label for ="2"> number2</label>
+    <input type="number" id="n2"><br><br>
+    <input type="button" onclick="add();" value="add">
+    <input type="button" onclick="mul();" value="multiple">
+    <input type="button" onclick="change1();" value="change background color">
+     <input type="button" onclick="change2();" value="change text color">
+    </form>
+    <p id="re"> </p>
+    
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
