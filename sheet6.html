@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<head>
+    <title> sheet6</title>
+    <meta charset="utf-8">
+    <script>
+    var name;
+    var now = new Date();    
+    var hour= now.getHours();
+    name = window.prompt("please enter your name") ;
+        if(hour<12)
+        
+       document.write("<h1>Good Morning ,  ");
+      if(hour>=12){
+            hour=hour-12;
+        if(hour<6)
+            document.write("<h1>Good Afternoon,  ");
+        if(hour>=6)
+            document.write("<h1>Good Evening,  ");
+        }
+        document.writeln(name +
+                         " , welcome to JavaScript programing!</h1>");
+        
+       
+    </script>
+    
+    
+    </head>
+
+<body>
+    
+    
+    </body>
+</html>
